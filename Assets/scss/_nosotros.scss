@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nosotros{
+display: flex;
+background-color: gray;
+justify-content: center;
+}
+
+.historia{
+    background-color: lightgray;
+}
+.pie{
+    background-color: lightgray;
+    border-radius: 10px;
+    display: grid;
+    border-radius: 3px;
+    gap: 5px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 55px 35px 35px;
+    grid-template-areas:"ViasDeContacto ViasDeContacto"
+                        "Tel            Wpp"
+                        "Inst           Face";}
+
+    .ViasDeContacto{
+                    grid-area: ViasDeContacto;
+                    display: flex;
+                    justify-content: center;
+                        }                    
+
+    .Tel{
+         grid-area: Tel;
+         display: flex;
+         justify-content: center;
+         margin: 5px;}
+
+
+    .Wpp{
+        grid-area: Wpp;
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        }
+
+    .Inst{
+        grid-area: Inst;
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+   .Face{
+    grid-area: Face;
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+   }
+   .pie:hover{
+    border: 2px solid black;
+   }
+
+   @media (min-width:576px){
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    .nosotros{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    }
+    
+    .historia{
+        background-color: lightgray;
+    }
+    .pie{
+        background-color: lightgray;
+        border-radius: 10px;
+        display: grid;
+        border-radius: 3px;
+        gap: 5px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 55px 35px 35px;
+        grid-template-areas:"ViasDeContacto ViasDeContacto"
+                            "Tel            Wpp"
+                            "Inst           Face";}
+    
+        .ViasDeContacto{
+                        grid-area: ViasDeContacto;
+                        display: flex;
+                        justify-content: center;
+                            }                    
+    
+        .Tel{
+             grid-area: Tel;
+             display: flex;
+             justify-content: center;
+             margin: 5px;}
+    
+    
+        .Wpp{
+            grid-area: Wpp;
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+            }
+    
+        .Inst{
+            grid-area: Inst;
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+        }
+       .Face{
+        grid-area: Face;
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+       }
+       .pie:hover{
+        border: 2px solid black;
+       }
+    
+   }
